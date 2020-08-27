@@ -1,0 +1,211 @@
+body { 
+    background-color: gray;
+    color:white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: helvetica;
+    font-size: 1em;
+    font-style: normal;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    font-family: trebuchete ms;
+}
+header nav{
+    background-color: black;
+    border: .5em red solid;
+    height: 3em;
+    
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 1em;
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+div img {
+    width: 25em;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40em;
+  padding: 10px;
+}
+.grid-item {
+  padding: 15px;
+  text-align: center;
+}
+
+#me_pic {
+    width: 8%;
+    float: right;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    
+}
+
+nav {
+    clear: both;
+    
+}
+
+#guitar {
+    float: right;
+    width: 13em;
+    padding-left: .5em
+}
+
+#amp {
+    float: left;
+    width: 13em;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+}
+
+footer {
+    clear: both;
+}
+
+#decades h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#alan_freed {
+    float: left;
+    width: 10.5em;
+    padding-right: .5em;
+}
+
+#sixties {
+    clear: both;
+}
+
+#seventies {
+    clear: both;
+}
+
+#eighties {
+    clear: both;
+}
+
+#beatles {
+    float: right;
+    width: 17em;
+    padding-left: .5em;
+}
+
+#eighties_picture {
+    float: left;
+    width: 17em;
+    padding-right: .5em;
+}
+
+#nineties {
+    clear: both;
+}
+
+#blink {
+    float: right;
+    width: 14em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+}
+
+#tops h2 {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+dd img {
+    width: 10em;
+}
+
+dt {
+    font-size: 5em;
+    font-family: trebuchete ms;
+    text-decoration: underline;
+}
+
+dd {
+    text-align: center;
+    font-size: 150%;
+}
+
+.artist {
+    font-size: 50%;
+    color: lightgray;
+}
+
+td img {
+    width: 5em;
+}
+
+table th {
+    font-size: 300%;
+    color: whitesmoke;
+    border: 5px black solid;
+}
+
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 200%;
+}
+
+table td:nth-child(even) {
+    width: 30%;
+
+}
+
+table td:nth-child(odd) {
+    width: 30%;
+}
+
+table tr:nth-child(even) {
+    background-color: darkgrey;
+}
+
+caption {
+    font-size: 250%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+caption img {
+    height: 5em;
+    float: right;
+}
+
+#left_img {
+    float: left;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
